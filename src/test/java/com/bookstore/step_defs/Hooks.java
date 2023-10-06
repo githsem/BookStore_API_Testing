@@ -1,2 +1,11 @@
-package com.bookstore.step_defs;public class Hooks {
+package com.bookstore.step_defs;
+
+import io.cucumber.java.Before;
+import io.restassured.RestAssured;
+
+public class Hooks {
+    @Before
+    public void setUp() {
+        RestAssured.baseURI = "https://bookstore.toolsqa.com";
+    }
 }
