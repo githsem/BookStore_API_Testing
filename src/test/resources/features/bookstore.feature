@@ -1,7 +1,6 @@
 @wip
 Feature: BookStore Flow
 
-
   Scenario: Test-1
     When Get All Books
     Then Validate that all books are listed
