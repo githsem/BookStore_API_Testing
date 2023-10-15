@@ -30,12 +30,14 @@ You can download the JDK from the official Oracle website: https://www.oracle.co
 Maven can be downloaded from: https://maven.apache.org/download.cgi
 
 Once you have installed the necessary software, you can clone this repository using the following command:
-git clone https://github.com/githsem/BookStore_API_Testing.git
+
+```git clone https://github.com/githsem/BookStore_API_Testing.git```
 
 ## Usage
 
 To run the tests, navigate to the project directory and execute the following command:
-mvn test
+
+```mvn test```
 
 This will run all the tests in the project.
 
